@@ -15,18 +15,25 @@ font-style: normal;
 
 .hex-color{
     color: #006A50;
+  
 }
 
 nav ul {
 display: flex;
 align-items: center;
 }
+
+.btn-primary{
+
+}
+
 /* Nav styles */
 
 nav{
 
     display: flex;
     justify-content: space-between;
+    margin: 0 200px;
 }
 
 .nav-title{
@@ -43,4 +50,28 @@ nav ul li {
 nav li a { 
     text-decoration: none;
     font-size: 20px;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width:  300px;
+    max-height: 250px;
+    margin: 0 150px 0 200px;
+}
+
+.banner-title{
+    color: #474747;
+}
+
+.banner-headline{
+    color: black;
+    font-weight: bold;
+}
+.banner-profile-picture{
+    width: 250px;
+    height: 200px;
+
 }
