@@ -10,8 +10,12 @@ font-style: normal;
 /* shared style */
 .secondary-bg{
     background-color: #73c0ad;
-
+border-radius: 15px;
+padding-top: 15px;
+padding-bottom: 15px;
 }
+
+
 .text-primary{
     color: black;
 }
@@ -27,13 +31,21 @@ align-items: center;
 }
 
 .btn-primary{
+    background-color: #006A50;
+    padding: 10px;
+    border: none;
+    color: white;
 
 }
 
 .section-title{
+  
 color: black;
 font-size: 50px;
 font-weight: bold;
+text-align: left;
+margin: 20px 10px;
+
 
 }
 
@@ -65,11 +77,13 @@ nav li a {
 .banner{
     display: flex;
     justify-content: space-between;
+    margin: 0 200px;
+
+
 }
 .banner-content{
-    max-width:  300px;
-    max-height: 250px;
-    margin: 0 150px 0 200px;
+    
+    
 }
 
 .banner-title{
@@ -85,3 +99,9 @@ nav li a {
     height: 200px;
 
 }
+/* work */
+.work-container{
+    display: flex;
+}
+
+} 
