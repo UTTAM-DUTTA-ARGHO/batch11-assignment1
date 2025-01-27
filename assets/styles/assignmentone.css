@@ -58,8 +58,9 @@ font-weight: bold;
 text-align: left;
 margin: 20px 10px;
 
-
 }
+
+
 
 /* Nav styles */
 
@@ -93,10 +94,7 @@ nav li a {
 
 
 }
-.banner-content{
-    
-    
-}
+
 
 .banner-title{
     color: #474747;
@@ -122,3 +120,18 @@ nav li a {
     padding: 30px;
     box-shadow:0px 5px 10px 0px #474747;
 }
+.newsltr{
+    text-align: center;
+}
+.newsltra{
+    text-align: center;
+}
+.bd2o{
+
+    text-align: center;
+    
+}
+.lot{
+    align-items: center;
+}
+
